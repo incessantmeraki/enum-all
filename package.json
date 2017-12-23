@@ -1,5 +1,28 @@
 {
   "dependencies": {
     "tape": "^4.8.0"
-  }
+  },
+  "name": "enum-all",
+  "description": "enumerate all the elments in a given array for given capacity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incessantmeraki/enum-all.git"
+  },
+  "keywords": [
+    "enumeration",
+    "combination",
+    "permutation"
+  ],
+  "author": "Ashwin Kandel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/incessantmeraki/enum-all/issues"
+  },
+  "homepage": "https://github.com/incessantmeraki/enum-all#readme"
 }
