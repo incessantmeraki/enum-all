@@ -30,7 +30,6 @@ test('test with all numeric characters', function (t) {
  var capacity  = 2
  
  var result = enumAll(arr, capacity)
- console.log(result)
  t.equal(result.length, Math.pow(arr.length, capacity)); 
  t.end()
 })
