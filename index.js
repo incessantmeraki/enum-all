@@ -10,7 +10,7 @@ module.exports = function (arr ,capacity) {
       result[k] = arr[j % size]
       j = Math.floor(j / size)
     }
-    output.push(result.join(''))
+    output.push([].concat(result))
   }
   return output
 }
