@@ -1,12 +1,12 @@
 {
-  "dependencies": {
-    "tape": "^4.8.0"
-  },
+  "dependencies": {},
   "name": "enum-all",
   "description": "enumerate all the elments in a given array for given capacity",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
   "scripts": {
     "test": "node test.js"
   },
